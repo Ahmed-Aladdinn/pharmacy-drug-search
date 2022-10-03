@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Varela Round, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/photo1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Varela Round, sans-serif;
+}
+
+header {
+    width: auto;
+    overflow: auto;
+    margin-top: 2%;
+}
+
+.ontainer {
+    max-width: 1300px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    color: white;
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.logo span {
+    color: #cc0000;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    width: auto;
+    overflow: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 40px;
+}
+
+nav ul li:hover {
+    border: 1px solid white;
+    background: #cc0000;
+}
+
+nav ul .active {
+    border: 1px solid white;
+    background: #cc0000;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 18px;
+    font-family: Oswald;
+}
+
+.text {
+    margin-top: 200px;
+}
+
+.text span {
+    color: #cc0000;
+    font-family: Oswald;
+}
+
+.text h1 {
+    text-align: center;
+    color: white;
+    font-family: Oswald;
+}
+
+.text pre {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Oswald;
+}
+
+.buttons {
+    margin-left: 42%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-bottom: 1px;
+    margin-right: 3px;
+    height: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.btn-1 {
+    height: 30px;
+    background: #cc0000;
+    border: 1px solid #cc0000;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn-1 a {
+    color: white;
+}
+
+.btn-2 {
+    height: 30px;
+    border: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn-2 a {
+    color: #cc0000;
+}
+
+.btn3:focus {
+    outline: none;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
